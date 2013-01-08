@@ -4,7 +4,7 @@ require "rubygems"
 require "mime/types" # Requires gem install mime-types
 require "base64"
 require 'cgi'
-require 'md5'
+require 'digest/md5'
 require 'digest/sha1' # required for rubyscript2exe
 
 module Net #:nodoc:all
